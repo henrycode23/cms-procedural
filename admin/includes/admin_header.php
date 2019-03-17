@@ -21,7 +21,7 @@ if(!isset($_SESSION['user_role'])){ // IF USER_ROLE IS NOT SET
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>JackHub Admin</title>
+    <title>BUSINESS PREDICTION Admin</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
