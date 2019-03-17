@@ -15,7 +15,7 @@ session_start();
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>JackHub - Blog What You Know</title>
+    <title>BUSINESS PREDICTION</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
