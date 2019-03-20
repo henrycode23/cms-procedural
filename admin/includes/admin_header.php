@@ -21,7 +21,7 @@ if(!isset($_SESSION['user_role'])){ // IF USER_ROLE IS NOT SET
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BUSINESS PREDICTION Admin</title>
+    <title>Business Info Admin</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -43,8 +43,9 @@ if(!isset($_SESSION['user_role'])){ // IF USER_ROLE IS NOT SET
     
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <!-- <script src="https://cloud.tinymce.com/5/tinymce.min.js"></script> -->
-    <!-- <script src="js/tinymce/tinymce.min.js"></script>
-    <script src="js/tinymce/jquery.tinymce.min.js"></script> -->
+    <script src="js/tinymce/tinymce.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- <script src="js/tinymce/jquery.tinymce.min.js"></script> -->
 
 </head>
 
