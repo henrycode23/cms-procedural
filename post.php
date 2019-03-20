@@ -33,7 +33,7 @@
 
                 <!-- First Blog Post -->
                 <h2>
-                    <a href="post.php?p_id=<?php echo $post_title; ?>"><?php echo $post_title; ?></a>
+                    <?php echo $post_title; ?>
                 </h2>
                 <p class="lead">
                     by <a href="author_posts.php?author=<?php echo $post_author; ?>&p_id=<?php echo $post_id; ?>"><?php echo $post_author; ?></a>

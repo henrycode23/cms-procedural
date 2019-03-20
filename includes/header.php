@@ -15,7 +15,7 @@ session_start();
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BUSINESS PREDICTION</title>
+    <title>Business Info</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">

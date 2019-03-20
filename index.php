@@ -10,8 +10,8 @@
             <!-- Blog Entries Column -->
             <div class="col-md-8">
                 <h1 class="page-header">
-                    Business Prediction
-                    <small>2019</small>
+                    Business Info
+                    <small>blogs about businesses...</small>
                 </h1>
 
                 <?php
@@ -33,7 +33,7 @@
                     $count = mysqli_num_rows($all_post_count);
                     $count = ceil($count / $per_page); // CREATING EACH NUMBERED PAGINATION BUTTON
 
-                    $query = "SELECT * FROM posts LIMIT $page_one, $per_page"; // BLOG POSTS, PAGINATION LIMIT
+                    $query = "SELECT * FROM posts ORDER BY post_id DESC LIMIT $page_one, $per_page"; // BLOG POSTS, PAGINATION LIMIT
                     $select_all_posts = mysqli_query($connection, $query);
                     while($row = mysqli_fetch_assoc($select_all_posts)){
                         $post_id = $row['post_id'];
@@ -57,15 +57,18 @@
                     by <a href="author_posts.php?author=<?php echo $post_author; ?>&p_id=<?php echo $post_id; ?>"><?php echo $post_author; ?></a>
                 </p>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on <?php echo $post_date; ?></p>
-                <hr>
+                
                 <a href="post.php?p_id=<?php echo $post_id; ?>">
                     <img class="img-responsive" src="images/<?php echo $post_image; ?>" alt="">
                 </a>
-                <hr>
+                
                 <p><?php echo $post_content; ?></p>
+                <a href=""></a>
+                <br>
                 <a class="btn btn-primary" href="post.php?p_id=<?php echo $post_id; ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-
+                <br><br>
                 <hr>
+                <br>
 
                 <?php
                         }  

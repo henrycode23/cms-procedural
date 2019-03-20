@@ -24,7 +24,7 @@ span.icon-bar {
                 <span class="sr-only">Toggle navigation</span>
                 <span class="glyphicon glyphicon-th-list" style="color: white; font-size: 22px;"></span>
             </button>
-            <a class="navbar-brand" href="index.php">BUSINESS PREDICTION</a>
+            <a class="navbar-brand" href="index.php">Business Info</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
